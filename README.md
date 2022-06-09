@@ -8,11 +8,11 @@ https://git-scm.com/
 https://code.visualstudio.com/
 
 ## Introduction GitHub 
-https://github.com/skills/introduction-to-github
+https://github.com/skills/introduction-to-github/
 
 ## GitHub Pages
-https://github.com/skills/github-pages
+https://github.com/skills/github-pages/
 
 ## firstcontributions
-https://github.com/firstcontributions/first-contributions
+https://github.com/firstcontributions/first-contributions/
 
