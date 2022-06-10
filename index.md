@@ -1,3 +1,3 @@
 ---
-GitHub 勉強会 練習場
+title: GitHub 勉強会 練習場
 ---
