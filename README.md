@@ -10,7 +10,7 @@ GitHub `Fork` クリック
 GitHub `Code` クリック, `SSH` クリック, Copy  
 ターミナルでクローンする
 ```bash
-git clone git@github.com:kanazawazawa/github-workshop.git
+git clone git@github.com:yourname/github-workshop.git
 ```
 ```bash
 cd github-workshop/
@@ -24,7 +24,7 @@ git remote -v
 main, master, dev 等永続ブランチで直接作業しないようにする  
 ブランチを作成してチェックアウト  
 ```bash
-git checkout -b update-README.md
+git checkout -b post-yourname
 ```
 ターミナルのブランチ名が変更していることを確認する
 ```bash
@@ -32,12 +32,14 @@ git branch
 ```
 
 ### Step.4 変更を加えコミットする
-ファイルを追加する、ファイルを変更する等変更を加える。  
+`_posts` の中に、`YYYY-MM-DD-title.md` ファイルを作成します。  
+例：2022-06-10-GitHub勉強会.md  
 ステイタスを確認し、ステージングエリアに登録、コミットする。
 ```bash
 git status
-git add README.md
-git commit -m "update README.md"
+git add -A
+git commit -m "post yourname"
+git status
 ```
 
 ### Step.5 トピックブランチを リモートリポジトリにプッシュする
@@ -47,11 +49,16 @@ git diff main
 ```
 ブランチをプッシュ！
 ```bash
-git push origin update-README.md
+git push origin YYYY-MM-DD-title.md
 ```
 
 ### Step.6 プルリクエストを作成する
-GitHub `Compare & request` クリック
+GitHub `Compare & request` クリック  
+Leave a comment
+`Create pull request` クリック  
+
+### Step.7 実践
+
 
 ## 参考情報
 
@@ -82,5 +89,3 @@ https://github.com/firstcontributions/first-contributions/
 ## 練習場
 https://kanazawazawa.github.io/github-workshop/
 
-`_posts` の中に、`YYYY-MM-DD-title.md` ファイルを作成します。
-例：2022-06-10-GitHub勉強会.md
