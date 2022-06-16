@@ -57,6 +57,12 @@ GitHub `Compare & request` クリック
 Leave a comment
 `Create pull request` クリック  
 
+
+（参考）プルリクエストがマージされた後にプルして最新の状態にする  
+```bash
+git pull origin main
+```
+
 ### Step.7 実践
 
 
