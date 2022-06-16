@@ -49,7 +49,7 @@ git diff main
 ```
 ブランチをプッシュ！
 ```bash
-git push origin YYYY-MM-DD-title.md
+git push origin <ご自身が設定したブランチ名>
 ```
 
 ### Step.6 プルリクエストを作成する
