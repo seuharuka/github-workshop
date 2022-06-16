@@ -96,6 +96,17 @@ clip < /c/Users/yourname/.ssh/id_ed25519.pub
 
 GitHub `Settings`, `SSH and GPG Keys`, `New SSH key`
 
+- user.name, user.email
+```bash
+git config --global user.name yourname
+```
+```bash
+git config --global user.email youraccount@example.com
+```
+```bash
+git confit --list
+```
+
 ### Visual Studio Code Install
 https://code.visualstudio.com/
 
