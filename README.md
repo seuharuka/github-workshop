@@ -71,14 +71,30 @@ git pull origin main
 ### Git Install 
 https://git-scm.com/
 
-Checkout Windows-style, commit Unix-style line endings  
+- Checkout Windows-style, commit Unix-style line endings  
 コミット時 CRLF→LF、ワークツリーに反映時 LF→CRLF  
 
-Checkout as-is, commit Unix-style line endings  
+- Checkout as-is, commit Unix-style line endings  
 コミット時 CRLF→LF  
 
-Checkout as-is, commit as-is  
+- Checkout as-is, commit as-is  
 改行コードを変換しない  
+
+- SSH
+```bash
+ssh-keygen -t ed25519 -C "youraccount@example.com"
+```
+Enter file in which to save the key  
+`Enter` 
+
+Enter passphrase  
+
+key をコピーする
+```bash
+clip < /c/Users/yourname/.ssh/id_ed25519.pub
+```
+
+GitHub `Settings`, `SSH and GPG Keys`, `New SSH key`
 
 ### Visual Studio Code Install
 https://code.visualstudio.com/
